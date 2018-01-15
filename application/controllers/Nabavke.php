@@ -22,7 +22,7 @@ class Nabavke extends Frontend_Controller {
     $this->load_views($data);
     }
 
-     public function edit()
+     public function editKatnab()
     {
       $data['title'] = "Dodavanje novog izvestaja";
       $data['pages'] = array('upload');
